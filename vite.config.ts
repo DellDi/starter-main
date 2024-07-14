@@ -52,6 +52,10 @@ export default defineConfig({
     Unocss({
       shortcuts: {
         'f-center': 'flex justify-center items-center',
+        'c-button':
+          'bg-[#283156] flex-col gap-2 py-2 px-6 rounded-1 cursor-pointer border border-solid border-[#f5f5f5]  hover:bg-[#3a4175] active:bg-[#1f2337]',
+        'gradient-l-r':
+          'active:(bg-gradient-to-tr from-[#282e4b] to-[#4859c1]) bg-gradient-to-tr from-[#4859c1] to-[#282e4b]',
       },
       presets: [
         presetUno(),
